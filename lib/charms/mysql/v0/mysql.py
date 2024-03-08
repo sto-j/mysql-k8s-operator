@@ -2262,6 +2262,8 @@ class MySQLBase(ABC):
 {xbcloud_location} get
         --curl-retriable-errors=7
         --parallel=10
+        --md5
+        --insecure
         --storage=S3
         --s3-region={s3_parameters["region"]}
         --s3-bucket={s3_parameters["bucket"]}
